@@ -1,0 +1,159 @@
+# **Prova sobre Structs em C**  
+
+Nível Fácil (Manipulação Básica de Structs)
+1. Cadastro de Aluno
+Crie uma struct Aluno com:
+
+Nome (string)
+
+Idade (int)
+
+Nota final (float)
+
+Escreva um programa que:
+
+Declare uma variável aluno1
+
+Atribua valores aos campos
+
+Imprima os dados
+
+2. Soma de Coordenadas
+Crie uma struct Ponto com:
+
+x (float)
+
+y (float)
+
+Faça uma função que receba dois Ponto e retorne um novo Ponto com a soma das coordenadas.
+
+3. Livro Favorito
+Crie uma struct Livro com:
+
+Título (string)
+
+Autor (string)
+
+Páginas (int)
+
+Peça ao usuário para preencher os dados e imprima:
+"O livro [título] de [autor] tem [páginas] páginas."
+
+4. Calculadora de Retângulo
+Crie uma struct Retangulo com:
+
+Largura (float)
+
+Altura (float)
+
+Faça funções para calcular:
+
+Área (largura * altura)
+
+Perímetro (2*(largura + altura))
+
+Nível Médio (Structs com Funções e Ponteiros)
+5. Cadastro de Produtos
+Crie uma struct Produto com:
+
+Nome (string)
+
+Preço (float)
+
+Quantidade em estoque (int)
+
+Faça uma função que:
+
+Aumente o preço em 10% para produtos com estoque < 50
+
+6. Média de Notas
+Crie uma struct Estudante com:
+
+Nome (string)
+
+3 notas (float array)
+
+Faça uma função que calcule e retorne a média.
+
+7. Data Válida
+Crie uma struct Data com:
+
+Dia (int)
+
+Mês (int)
+
+Ano (int)
+
+Faça uma função que verifique se a data é válida (ex: 31/02/2023 → inválido).
+
+8. Ponteiro para Struct
+Crie uma struct Carro com:
+
+Modelo (string)
+
+Ano (int)
+
+Faça uma função que receba um ponteiro para Carro e atualize seu ano para 2023.
+
+Nível Avançado (Structs Aninhadas e Alocação Dinâmica)
+9. Agenda de Contatos
+Crie uma struct Contato com:
+
+Nome (string)
+
+Telefone (string)
+
+Aniversário (struct Data)
+
+Faça um programa que:
+
+Crie um array de 5 contatos
+
+Permita ao usuário preenchê-los
+
+Liste todos os contatos
+
+10. Banco com Structs
+Crie uma struct ContaBancaria com:
+
+Número da conta (int)
+
+Saldo (float)
+
+Titular (struct Cliente com nome e CPF)
+
+Implemente funções para:
+
+Depositar
+
+Sacar
+
+Ver saldo
+
+11. Alocação Dinâmica de Alunos
+Crie uma struct Aluno com:
+
+Nome (string)
+
+Notas (float array[3])
+
+Faça um programa que:
+
+Use malloc para criar um array dinâmico de Aluno
+
+Peça ao usuário quantos alunos cadastrar
+
+Preencha os dados
+
+12. Arquivo com Structs
+Crie uma struct Pessoa com:
+
+Nome (string)
+
+Idade (int)
+
+Faça um programa que:
+
+Grave uma lista de pessoas em um arquivo .bin
+
+Leia o arquivo e imprima os dados
